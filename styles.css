@@ -1,9 +1,9 @@
 * {
   margin:0px;
   padding:0px;
-  font: 60px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  font: 60px font-family: 'ABeeZee', sans-serif;
+font-family: 'Satisfy', cursive;
 }
-
 body {
   height: 100%;
 }
@@ -32,40 +32,44 @@ img {
 
 h1 {
   text-align: center;
-  color: red;
-  font: 60px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-}
+  color: black;
+  font: 60px;
+  font-family: 'ABeeZee', sans-serif;
+font-family: 'Satisfy', cursive;
 
 h2 {
   text-align: center;
   color: black;
   font-weight: bold;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-}
-
+  font: 30px;
+  font-family: 'ABeeZee', sans-serif;
+font-family: 'Satisfy', cursive;
 h3 {
   text-align: center;
   color: grey;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-}
-
+  font: 30px;
+  font-family: 'ABeeZee', sans-serif;
+font-family: 'Satisfy', cursive;
 h4 {
   text-align: center;
   color: black;
-  font: 20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-}
+  font: 20px;
+  font-family: 'ABeeZee', sans-serif;
+font-family: 'Satisfy', cursive;
 
 p {
   text-align: center;
   color: black;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-}
-
+  font: 30px;
+  font-family: 'ABeeZee', sans-serif;
+font-family: 'Satisfy', cursive;
+  }
 li {
   text-align: center;
   color: black;
-  font: 20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-}
+  font: 20px;
+  font-family: 'ABeeZee', sans-serif;
+  font-family: 'Satisfy', cursive;
 
 .center {
   display: block;
