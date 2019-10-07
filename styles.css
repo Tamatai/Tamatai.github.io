@@ -39,7 +39,7 @@ h1 {
 
 h2 {
   text-align: center;
-  color: black;
+  color: purple;
   font-weight: bold;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
@@ -64,7 +64,7 @@ p {
 
 li {
   text-align: center;
-  color: black;
+  color: purple;
   font: 20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
