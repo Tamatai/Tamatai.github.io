@@ -1,15 +1,15 @@
 * {
   margin:0px;
   padding:0px;
-  font: 60px font-family: 'ABeeZee', sans-serif;
-font-family: 'Satisfy', cursive;
+  font: 60px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
+
 body {
   height: 100%;
 }
 
 img {
-  background-image: url("images/jordan1.png");
+  background-image: url("/images/Whetu.JPG");
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -32,44 +32,40 @@ img {
 
 h1 {
   text-align: center;
-  color: black;
-  font: 60px;
-  font-family: 'ABeeZee', sans-serif;
-font-family: 'Satisfy', cursive;
+  color: red;
+  font: 60px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
 
 h2 {
   text-align: center;
   color: black;
   font-weight: bold;
-  font: 30px;
-  font-family: 'ABeeZee', sans-serif;
-font-family: 'Satisfy', cursive;
+  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
 h3 {
   text-align: center;
   color: grey;
-  font: 30px;
-  font-family: 'ABeeZee', sans-serif;
-font-family: 'Satisfy', cursive;
+  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
 h4 {
   text-align: center;
   color: black;
-  font: 20px;
-  font-family: 'ABeeZee', sans-serif;
-font-family: 'Satisfy', cursive;
+  font: 20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
 
 p {
   text-align: center;
   color: black;
-  font: 30px;
-  font-family: 'ABeeZee', sans-serif;
-font-family: 'Satisfy', cursive;
-  }
+  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
 li {
   text-align: center;
   color: black;
-  font: 20px;
-  font-family: 'ABeeZee', sans-serif;
-  font-family: 'Satisfy', cursive;
+  font: 20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
 
 .center {
   display: block;
