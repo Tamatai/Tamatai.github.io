@@ -11,11 +11,11 @@ body {
 img {
   background-image: url("images/Aurora Borealis.jpg");
   display: block;
-  margin-top: auto;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 100%;
+  margin-left: 100%;
+  margin-right: 100%;
   max-width: 100%;
-  height: auto; 
+  height: 100%; 
   /* background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
