@@ -28,7 +28,6 @@ img {
 
 h1 {
   text-align: center;
-  color: white;
   font: <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
 }
 
@@ -53,7 +52,6 @@ h4 {
 
 p {
   text-align: center;
-  color: white;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
