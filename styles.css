@@ -8,10 +8,11 @@ body {
   height: 100%;
 }
 
-.bg {
-  /* The image used */
+<style>
+div {
   background-image: url("images/Aurora Borealis.jpg")
-
+}
+</style>
   
   height: 100%;
 /* Full height */
