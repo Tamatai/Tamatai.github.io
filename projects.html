@@ -3,23 +3,58 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>My Projects</title>  
+  <title>Tama's Webpage</title>
+ <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
   <LINK href="styles.css" rel="stylesheet" type="text/css">
+    <style>
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
 </head>
+<body>
 
-<body> 
-   <div class="header">
-    <a href="https://port3.org">Port3</a>
-     <div class="header-right">
-        <a href="/index.html">Home</a>
-        <a href="/projects.html">Projects</a>
-        <a href="/journey.html">Journey</a>
-     </div>
-    </div>
-    <div>
-      <img src="images/1project.jpg">
-      <div class="text">
-        <h1>Projects</h1>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="/projects.html">Project</a>
+  <a href="/journey.html">Journey</a>
+  </div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+ <div>
+ <img src="/images/Aurora Borealis.jpg">
+  <div class="text"> 
+    <h1>Projects</h1>
         <h2>Haughey's Clothing</h2>
         <p>Haugheys Clothing vision is to create affordable, styley and fashionable streetwear that enables people to represent where they come from or places
 they love in New Zealand. Haugheys Clothing was inspired by the street i was raised in and the vast amount of people i was raised with in Central Auckland.
@@ -28,7 +63,17 @@ thats styley, comfortable and fashionable will not only help our people look sup
 stomping grounds. Haugheys Clothing creates clothing for people from all walks of life and all ages. Haugheys Clothing is the only New Zealand online
 streetwear website that creates clothing to help people find their purposes and connection to their identity with clothing.
 </p>   
-    </div>
+    <a href="https://haugheysclothing.github.io">Haughey's Clothing</a>
   </div>
+ </div>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+   
 </body>
 </html>
