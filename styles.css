@@ -9,19 +9,18 @@ body {
 }
 
 .bg {
-  
+  /* The image used */
   background-image: url("images/Aurora Borealis.jpg")
 
   
   height: 100%;
-
-  
+/* Full height */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-
+/* Center and scale the image nicely */
 .text {
   text-align: center;
   position: absolute;
@@ -29,7 +28,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
+/* Place text in the middle of the image */
 h1 {
   text-align: center;
   color: ;
